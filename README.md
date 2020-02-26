@@ -74,14 +74,28 @@ Multiple linear regression was performed on the [raw data] (LINK) from [Open Bal
   * Trendlines, equations, and r^2 values were added to the graphs
   * Chart title and axis titles were added
   
+The results in the tables show how closely each variable (Job Level, Tenure Length, and Department ID) correlate to each salary type (Annual and Gross Salary). The Regression Coefficient is an estimate of the unknown population parameters and describes the relationship between a predictor variable and the response. The Standard Error of Regression value represents the average distance that the observed values fall from the regression line as one indication of how correct the regression model is. The T-Statistic represents a measure of the precision with which the regression coefficient is measured. The P-Value determines how likley it is that these results are due to chance and variablity in data, and if the value is below 0.05 the data is considered statistically significant. 
+
+As can be seen from the first table representing correlation to annual salary, only the Engineering Job Level has a P-value of less than 0.05, indicating the regression equation is a good predictor of annual salary when using job level. The data, regression equation, and R^2 value are shown below. 
+
+INSERT PICTURE
+
+The R^2 value of 0.7712 indicates that 77.12% of the data can be predicted by the regression equation of y = 5523.7x + 42298.
+
+As can be seen from the second table representing correlation to gross salary, there was still a correlation, if weaker, between salary and job level, but there also appeared to be a significant relationship between length of tenure and salary. The data, regression equation, and R^2 value for both of these variables are shown below. 
+
+INSERT PICTURE
+
+The R^2 value of 0.5914 indicates that now only 59.14% of the data can be predicted by the regression equation of y = 6124.8x + 38203.
+
+
+## Job Level Creates the Primary Impact on Annual Salary, but Tenure Length Can Have Secondary Effects on Gross Salary
+
+The conclusion from the data analysis is that job level has the strongest impact on annual salary, which is a good indication for the organization as well as for employees. Employees who are doing harder, more value-producing jobs are being fairly compensated, and the organizations funds are goig towards supporting higher level employees. However, the gross salary for employees is less strongly correlated to job level, and develops a relationship with tenure length. This suggests that while most employees with the same job title have the same base salary, those who have worked there longer are possibly receiving higher bonuses, resulting in higher overall salary. This could be due to the higher experience and value level of those longer-term employees. 
+
+These results indicate that the methods of Baltimore City in attracting and retaining good engineering talent are promising and attractive to current employees as well as new applicants. Additionally, they are devoting their funds reasonably to people in positions who produce more value for them. Overall, Baltimore City should continue with their practice of rewarding people in higher positions, and further rewarding people who perform particulalry well in those positions. 
 
 
 
-
-
-
-
-
-•	What were the results of your data analysis and how did this contribute to your final solution?
 
 
