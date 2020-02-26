@@ -78,7 +78,7 @@ The results in the tables show how closely each variable (Job Level, Tenure Leng
 
 As can be seen from the first table representing correlation to annual salary, only the Engineering Job Level has a P-value of less than 0.05, indicating the regression equation is a good predictor of annual salary when using job level. The data, regression equation, and R^2 value are shown below. 
 
-INSERT PICTURE
+![alt text](https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Annual%20Salary%20vs.%20Engineer%20Job%20Level.JPG?raw=true)
 
 The R^2 value of 0.7712 indicates that 77.12% of the data can be predicted by the regression equation of y = 5523.7x + 42298.
 
