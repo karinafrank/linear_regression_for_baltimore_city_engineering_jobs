@@ -23,7 +23,7 @@ Gross and annual salary were not modified in any way, but analysis was conducted
 Multiple linear regression was performed on the [raw data](https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Baltimore%20City%20Raw%20Salary%20Data%20FY2019.xlsx?raw=true) from [Open Baltimore](https://data.baltimorecity.gov/widgets/6xv6-e66h) comparing salary, job level, and time working for Baltimore City. The steps to perform this analysis are listed below:
 
 1. Download Baltimore Open City Salary [Data](https://data.baltimorecity.gov/widgets/6xv6-e66h) for FY 2019
-2. Create a new [document for analysis](LINK) and tranfer the data into it so as to not affect the raw data file
+2. Create a new [document for analysis](https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Linear%20Regression%20Analysis.xlsx?raw=true) and tranfer the data into it so as to not affect the raw data file
 3. Filter out the data for positions that are not for engineers
   * Created a column to the right of the data titled “Eng_Job_Title” and entered and equation, for example: `=IF(ISNUMBER(SEARCH("engineer",B2)),B2,0)` that would enter the job title if it had "engineering" somewhere in the JOBTITLE column and will return a value of 0 if the job title is not related to engineering
   * Used a filter on the new column Eng_Job_Title to hide all the columns that had "0" entered, as those were the non-engineering jobs
