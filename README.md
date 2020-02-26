@@ -21,7 +21,7 @@ Gross and annual salary were not modified in any way, but analysis was conducted
 ## Results Show that Job Level and Salary Have a Strong Correlation
 
 |Coefficients|	Standard Error|	t Stat	|P-value|
-|-----------|----------|--------|-------|-------|
+|---|---|----|---|---|
 |Intercept	|27102.27767	|4839.874351	|5.59978952|	8.47226E-08|
 |Eng_Job_Level|6067.256762	|466.6969461|	13.00042096|	2.84914E-27|
 |Tenure_Length|	1.032291983|	0.227202355	|4.543491571	|1.04557E-05|
