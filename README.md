@@ -10,7 +10,7 @@ The strategy of rewarding more qualified workers with higher salaries is also a 
 
 ## Using Job Title, Hire Date, and Salary to Assess Correlation
 
-[Raw data] (LINK)  was downloaded from the [Baltimore City open salary data website](https://data.baltimorecity.gov/widgets/6xv6-e66h) for Fiscal Year 2019 (FY2019). The data categories specifically used for analysis were job title, to reflect skill level, hire date, to reflect length of tenure, and gross and annual salary. Data was additionally filtered to only inlude numbers for people with "engineering" in the job title to allow for more specific results. 
+[Raw data] (https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Baltimore%20City%20Raw%20Salary%20Data%20FY2019.xlsx?raw=true)  was downloaded from the [Baltimore City open salary data website](https://data.baltimorecity.gov/widgets/6xv6-e66h) for Fiscal Year 2019 (FY2019). The data categories specifically used for analysis were job title, to reflect skill level, hire date, to reflect length of tenure, and gross and annual salary. Data was additionally filtered to only inlude numbers for people with "engineering" in the job title to allow for more specific results. 
 
 "Job Levels" were artificilly determined by ordering all the different engineering job titles by their assumed importance and the assumed progression of positions in an organization, since it was not specified which positions were actually higher than others. Data analysis would have been more significant had progression throughout the entire pomotional hierarchy been available. Once ordering of the relative order of positions (entry, mid, and high) was determined, these positions translated into analyzable data by assigning numbers to every title based on order in the list. Department ID was used in the analysis to see if any relationship existed, but no logical relationship was found as the numbers for each department do not provide any actual numerical information. 
 
@@ -20,7 +20,7 @@ Gross and annual salary were not modified in any way, but analysis was conducted
 
 ## Results Show that Job Level and Salary Have a Strong Correlation
 
-Multiple linear regression was performed on the [raw data] (LINK) from [Open Baltimore] (LINK) comparing salary, job level, and time working for Baltimore City. The steps to perform this analysis are listed below:
+Multiple linear regression was performed on the [raw data] (https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Baltimore%20City%20Raw%20Salary%20Data%20FY2019.xlsx?raw=true) from [Open Baltimore] (https://data.baltimorecity.gov/widgets/6xv6-e66h) comparing salary, job level, and time working for Baltimore City. The steps to perform this analysis are listed below:
 
 1. Download Baltimore Open City Salary [Data](https://data.baltimorecity.gov/widgets/6xv6-e66h) for FY 2019
 2. Create a new [document for analysis] (LINK) and tranfer the data into it so as to not affect the raw data file
