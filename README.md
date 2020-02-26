@@ -28,18 +28,18 @@ Multiple linear regression was performed on the [raw data] (LINK) from [Open Bal
   * Created a column to the right of the data titled “Eng_Job_Title” and entered and equation, for example: `=IF(ISNUMBER(SEARCH("engineer",B2)),B2,0)` that would enter the job title if it had "engineering" somewhere in the JOBTITLE column and will return a value of 0 if the job title is not related to engineering
   * Used a filter on the new column Eng_Job_Title to hide all the columns that had "0" entered, as those were the non-engineering jobs
 4. Job titles were then assigned their corresponding "Job Levels" using the following system
-  1. Engineering Draft Tech 
-  2. Engineering Associate I
-  3. Engineering Associate II
-  4. Engineering Associate III
-  5. Engineer I
-  6. Network Engineer
-  7. Engineer II
-  8. Operations Engineer
-  9. Marine Engineer
-  10. Supervising Enigneer
-  11. Project Engineer
-  12. Chief of Engineering
+  * 1. Engineering Draft Tech 
+  * 2. Engineering Associate I
+  * 3. Engineering Associate II
+  * 4. Engineering Associate III
+  * 5. Engineer I
+  * 6. Network Engineer
+  * 7. Engineer II
+  * 8. Operations Engineer
+  * 9. Marine Engineer
+  * 10. Supervising Enigneer
+  * 11. Project Engineer
+  * 12. Chief of Engineering
 5. In a new column titled "Eng_Job_Level" each job title was assigned its numeric job level using the following code:
 ```
 =IF(H404="Civil Engineering Draft Tech",1,IF(H404="Engineering Associate I",2, IF(H404="Engineering Associate II",3,IF(H404="Engineering Associate III",4, IF(H404="Engineer I",5,IF(ISNUMBER(SEARCH("Network",H404)),6,IF(H404="Engineer II",7,IF(ISNUMBER(SEARCH("Operations",H404)),8,IF(ISNUMBER(SEARCH("Marine",H404)),9,IF(ISNUMBER(SEARCH("Supervi",H404)),10,IF(ISNUMBER(SEARCH("Project",H404)),11,IF(ISNUMBER(SEARCH("Chief",H404)),12,0))))))))))))
