@@ -86,7 +86,12 @@ As can be seen from the second table representing correlation to gross salary, t
 
 INSERT PICTURE
 
-The R^2 value of 0.5914 indicates that now only 59.14% of the data can be predicted by the regression equation of y = 6124.8x + 38203.
+The R^2 value of 0.5914 indicates that now only 59.14% of the gross salary data can be predicted by job level with the regression equation of y = 6124.8x + 38203.
+
+INSERT PICTURE
+
+While there is a significant P-value for the relationship between gross salary and tenure length, R^2 value is only 0.0752, indicating only 7.52% of the gross salary data can be predicted by tenure length with the regression equation y = 0.9801x + 69639.
+
 
 
 ## Job Level Creates the Primary Impact on Annual Salary, but Tenure Length Can Have Secondary Effects on Gross Salary
