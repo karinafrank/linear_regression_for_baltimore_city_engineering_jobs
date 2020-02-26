@@ -84,7 +84,7 @@ The R^2 value of 0.7712 indicates that 77.12% of the data can be predicted by th
 
 As can be seen from the second table representing correlation to gross salary, there was still a correlation, if weaker, between salary and job level, but there also appeared to be a significant relationship between length of tenure and salary. The data, regression equation, and R^2 value for both of these variables are shown below. 
 
-INSERT PICTURE
+![alt text](https://github.com/karinafrank/linear_regression_for_baltimore_city_engineering_jobs/blob/master/Gross%20Salary%20vs.%20Engineering%20Job%20Level.JPG?raw=true)
 
 The R^2 value of 0.5914 indicates that now only 59.14% of the gross salary data can be predicted by job level with the regression equation of y = 6124.8x + 38203.
 
